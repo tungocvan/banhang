@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body{
+  background: #FFF;
+  color:#000;
+  overflow:visible;
+}
+
+header{
+  min-width: 400px;
+  border-bottom: 10px solid black;
+}
+table tr{
+  border-bottom: 1px dotted black;
+  padding: 10px 0;
+}
+table tbody tr:last-child{
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+}
+table th{
+  text-align: center;
+}
+.info{
+  margin: auto;
+}
+.info .title{
+  width: 350px;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+.footer{
+  width: 350px;
+  text-align: center;
+  font-weight: bold;
+}
